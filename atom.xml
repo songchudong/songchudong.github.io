@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-02T10:23:26.886Z</updated>
+  <updated>2018-09-02T10:31:20.708Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/09/02/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E4%B8%80%EF%BC%89%E5%88%9D%E7%AA%A5/"/>
     <id>http://yoursite.com/2018/09/02/JavaScript面向对象（一）初窥/</id>
     <published>2018-09-02T04:39:57.000Z</published>
-    <updated>2018-09-02T10:23:26.886Z</updated>
+    <updated>2018-09-02T10:31:20.708Z</updated>
     
     <content type="html"><![CDATA[<p><strong>由深入浅易,由浅入深难</strong>，学之深浅在于勤，多努力努力，不忘初心，方得始终。  </p><h4 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h4><p>所谓对象，实质上就是指“事物”包括人和物在程序设计语言中的表现形式。这里的“事物”可以是任何东西（某个客观存在的对象，或者某些较为抽象的概览）。例如，对于人这种常见对象来说，我们可以看到他们具有某些明确的特征（如肤色、名字、体型、性别等），能执行的动作（如学习、跑步、睡觉、骑自行车等）。在<code>OOP</code>（Object Oriented Programming，面向对象编程）语义中，这些对象特征都叫做属性，而那些动作则被称为方法。</p><h4 id="类"><a href="#类" class="headerlink" title="类"></a>类</h4><p>在对象之间，往往都有一些或多或少的共同特征，如老鹰和猫头鹰都具备鸟的特性，能飞行、拥有翅膀等等，通过一些共同的特征我们可以将这两种动物统一规划在鸟类，在<code>OOP</code>中，类是一个抽象概念,<strong>(从具体事物抽出、概括出它们共同的方面、本质属性与关系等，而将个别的、非本质的方面、属性与关系舍弃，这种思维过程，称为抽象。–百度百科)</strong>，而对象通常被称为”实例“，所以说，对象是基于类的”实例“的，通俗来说就是根据理论扩展出来实际产品。但<code>JavaScript</code>中是没有类这个概念的，虽然在<code>ES6</code>中加入<code>class</code>，但依然只是语法糖而已，目前仍然无法广泛使用，而在JavaScript中其依靠的是一套原型（<code>prototype</code>）系统，其中原型也是一种对象，那我们就需要通过一种方式，将属性和对象，封装成一个对象，通过这对象来生成一个实例对象。从而实现生成类的效果。</p><h4 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h4><p>封装是<code>OOP</code>最常见的一种方式，封装就是将对象的属性和方法等封装在程序对象中，通过该方式，可以实现公共化的接口，这样对于使用该接口的对象，就无需考虑该接口的具体实现原理，封装的概念通常是有以下几个部分组成，相关的数据（存储属性）、对相关数据所进行的操作（调用的方法）、信息的隐藏（方法和属性的可见性）。</p><h4 id="聚合"><a href="#聚合" class="headerlink" title="聚合"></a>聚合</h4><p>聚合，也被称为组合，由多个对象合成一个新对象的过程，聚合的概念就是多个合一，通过聚合的特性，我们可以将大问题分成多个小问题，这样问题解决，将变得更加简易，这种概念通常用在比较大型的项目中，这样有益于功能开发更加简易化，毕竟人类在处理事情上，对大型事情会有所欠缺和不足，而当问题变小后，反而会处理的更加完善。</p><h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><p>继承同样也是<code>OOP</code>中常用的方式之一，通过继承，可以实现对代码的重用，在传统的<code>OOP</code>中，继承通常是类与类之间的关系，但在<code>JavaScript</code>中，不存在类的概念，所以继承只能发生在对象之间，关于继承的方式,请查看后期的文章。</p><h4 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h4><p>不同的对象通过相同的方法调用实现各自行为的能力，这就是多态。</p><hr><h5 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h5><p>本博客涉及转载文章，用于分享与备忘。<br>如果转载博客有涉及版权问题，请与我联系，我定会删改。<br>QQ：1738613989<br>邮箱：<a href="mailto:1738613989@qq.com" target="_blank" rel="noopener">1738613989@qq.com</a>、<a href="mailto:chudong666@gmail.com" target="_blank" rel="noopener">chudong666@gmail.com</a></p>]]></content>
     
